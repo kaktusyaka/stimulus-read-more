@@ -25,7 +25,7 @@ export default class extends Controller {
 
     const target = event.target as HTMLElement
     target.innerHTML = this.lessTextValue
-    this.contentTarget.style.setProperty('--read-more-line-clamp', "'unset'")
+    this.contentTarget.style.setProperty('--read-more-line-clamp', 'unset')
   }
 
   hide (event: Event): void {
